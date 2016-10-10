@@ -1,5 +1,5 @@
 {
-  "name": "bloc-frontend-project-starter",
+  "name": "bloc-jams-angular",
   "version": "0.0.2",
   "description": "Starter project for the Bloc Frontend Web Development",
   "repository": {
@@ -29,5 +29,10 @@
   "bugs": {
     "url": "https://github.com/bloc/bloc-frontend-project-starter/issues"
   },
-  "homepage": "https://github.com/bloc/bloc-frontend-project-starter#readme"
+  "homepage": "https://github.com/bloc/bloc-frontend-project-starter#readme",
+  "keywords": [
+    "bloc",
+    "jams",
+    "angular"
+  ]
 }
