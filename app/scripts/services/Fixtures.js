@@ -1,6 +1,7 @@
 ﻿(function () {
     function Fixtures() {
         var Fixtures = {};
+
         var albumPicasso = {
             title: 'The Colors',
             artist: 'Pablo Picasso',
@@ -10,23 +11,23 @@
             songs: [{
                 title: 'Blue',
                 duration: '161.71',
-                audioUrl: 'assets/music/blue'
+                audioUrl: '/assets/music/blue'
             }, {
                 title: 'Green',
                 duration: '103.96',
-                audioUrl: 'assets/music/green'
+                audioUrl: '/assets/music/green'
             }, {
                 title: 'Red',
                 duration: '268.45',
-                audioUrl: 'assets/music/red'
+                audioUrl: '/assets/music/red'
             }, {
                 title: 'Pink',
                 duration: '153.14',
-                audioUrl: 'assets/music/pink'
+                audioUrl: '/assets/music/pink'
             }, {
                 title: 'Magenta',
                 duration: '374.22',
-                audioUrl: 'assets/music/magenta'
+                audioUrl: '/assets/music/magenta'
             }, ]
         };
 
@@ -57,9 +58,18 @@
 
         Fixtures.getAlbum = function () {
             return albumPicasso;
+        };
+
+        Fixtures.getCollection = function(numAlbums) {
+            var arrayAlbums = [];
+            for (var i = 0; i < numAlbums; i++) {
+                arrayAlbums.push(albumPicasso);
+            }
+            return arrayAlbums;
         }
 
         return Fixtures;
+
     }
 
     angular
