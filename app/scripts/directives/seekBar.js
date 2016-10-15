@@ -35,6 +35,10 @@
                     return percent + "%";
                 };
 
+                scope.thumbStyle = function () {
+                    return { left: percentString() }
+                };
+
                 scope.fillStyle = function () {
                     return { width: percentString() };
                 };
@@ -67,5 +71,5 @@
 
     angular
         .module('blocJams')
-        .directive('seekBar',['$document', seekBar]);
+        .directive('seekBar', ['$document', seekBar]);
 })();
