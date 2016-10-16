@@ -1,4 +1,4 @@
-(function() {
+(function () {
     function LandingCtrl() {
         this.heroTitle = "Turn the Music Up!";
     }

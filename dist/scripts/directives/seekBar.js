@@ -85,7 +85,7 @@
                         scope.onChange({ value: newValue });
                     }
                 };
-                
+
             }
         };
     }

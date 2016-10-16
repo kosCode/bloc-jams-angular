@@ -28,7 +28,7 @@
                 title: 'Magenta',
                 duration: '374.22',
                 audioUrl: '/assets/music/magenta'
-            }, ]
+            },]
         };
 
         // Another Example Album
@@ -53,14 +53,14 @@
             }, {
                 title: 'Wrong phone number',
                 duration: '2:15'
-            }, ]
+            },]
         };
 
         Fixtures.getAlbum = function () {
             return albumPicasso;
         };
 
-        Fixtures.getCollection = function(numAlbums) {
+        Fixtures.getCollection = function (numAlbums) {
             var arrayAlbums = [];
             for (var i = 0; i < numAlbums; i++) {
                 arrayAlbums.push(albumPicasso);
